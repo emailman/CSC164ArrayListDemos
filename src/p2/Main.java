@@ -28,8 +28,10 @@ public class Main {
         Integer[] intArray = new Integer[integerList.size()];
         integerList.toArray(intArray);
 
+        Arrays.sort(intArray);
+
         // Print the values in the array
-        System.out.print("elements in the array: ");
+        System.out.print("sorted elements in the array: ");
         for (Integer each : intArray)
             System.out.print(each + " ");
         System.out.println();
